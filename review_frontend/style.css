@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #131720;
+    font-family: sans-serif;
+}
+
+
+h3{
+    color: white;
+}
+
+.topnav
+{
+    /* The overflow property is used when text goes out of the current border*/
+    overflow: hidden;
+    background-color: #131720;
+    padding: 10px;
+}
+
+/* styling the "movie title" class */
+.topnav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center
+    padding 14px 16px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+/* making the search bar appear on the right hand side on the same row as "Movie title" */
+.topnav .search-container{
+    float: right;
+}
+
+/* formatting the interior of the search bar */
+form
+{
+    background-color: #151f30;
+    width: 300px;
+    height: 43px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+}
+
+input
+{
+    /* all:unset resets all of the properties of the element to either its inherited value or intial value */
+    
+    all:unset;
+    font: 15px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+
+}
+
+/* limiting the height and width of the actual thumb nail*/
+.thumbnail
+{
+    height: 350px;
+    width: 300px;
+    border-radius: 19px;
+}
+
+.column
+{
+    float: left;
+    width: 25%;
+    padding: 10px 10px;
+
+}
+
+/* the card is the area around the movie title */
+.card
+{
+    border-radius: 19px;
+    padding: 15px;
+    background-color: #151f30;
+    text-align: center;
+}
+
+
+
+
